@@ -1,0 +1,63 @@
+.sponsers{
+    background-image: url(../../Assets/Images/sp-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* height: 100vh; */
+}
+.sponsers .sliders{
+    padding-top: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.sponsers .sliders .title-font{
+    font-size: 45px;
+    color: #443516;
+    font-weight: 700;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7 ));
+    }
+}
+.sponsers .slider-trucks{
+    animation: scroll 10s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(250px * 14);
+}
+.sponsers .sliders .slide{
+    height: 100px;
+    width: 250px;
+}
+.sponsers .sliders .line-title{
+    width: 80px;
+    display: flex;
+    margin-left: 41%;
+    height: 10px;
+    background-color: #D2A13B;
+}
+.sponsers .data-info p{
+    font-size: 20px;
+    color: #443516;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .sponsers .sliders .title-font{
+        font-size: 30px;
+        color: #443516;
+        font-weight: 700;
+    }
+    .sponsers .data-info p{
+        font-size: 12px;
+        color: #443516;
+        font-weight: 600;
+    }
+    }

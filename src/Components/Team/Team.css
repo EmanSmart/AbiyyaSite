@@ -1,0 +1,82 @@
+.team{
+    background-image: url(../../Assets/Images/bg-team.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* height: 100vh; */
+}
+.team .line-title{
+    width: 80px;
+    display: flex;
+    margin-left: 43%;
+    height: 10px;
+    background-color: #D2A13B;
+}
+.team .title .title-font{
+    font-size: 45px;
+    color: #443516;
+    font-weight: 700;
+}
+.team .slideritem{
+    margin-bottom: 80px;
+}
+.team .slick-list{
+   margin: 0px 20px;
+}
+.team .img-t{
+    margin-left: 25%;
+}
+.team .inside{
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    width: 95% ;
+    /* height: 350px; */
+}
+.team .inside h3{
+    color: #8E5204;
+    font-weight: 700;
+}
+.team .inside label{
+    color:#BD8031;
+    font-weight: 600;
+}
+.team .inside p{
+    font-size: #000;
+    font-weight: 500;
+}
+.team .slick-dots li.slick-active button:before{
+    opacity: .75;
+    color: #8E5204;
+    font-size: 16px;
+}
+.team .slick-dots li button:before{
+    opacity: .75;
+    color: #B5B7AC;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .team .title .title-font{
+        font-size: 30px;
+        color: #443516;
+        font-weight: 700;
+    }
+.team .inside h3{
+    color: #8E5204;
+    font-weight: 700;
+    font-size: 12px;
+}
+.team .inside label{
+    color:#BD8031;
+    font-weight: 600;
+    font-size: 10px;
+
+}
+.team .inside p{
+    font-size: #000;
+    font-weight: 500;
+    font-size: 10px;
+
+}
+}

@@ -1,0 +1,35 @@
+.ourvision{
+    background-image: url(../../Assets/Images/bg-test.svg);
+    /* height: 200vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.ourvision .data{
+    margin-top: 23%;
+}
+.ourvision .data .title-font{
+    font-size: 45px;
+    color: #443516;
+    font-weight: 700;
+}
+.ourvision .data p{
+    color: #443516;
+    font-size: 26px;
+    font-weight: 400;
+}
+.ourvision .line-title{
+    width: 80px;
+    display: flex;
+    margin-left: 1%;
+    height: 10px;
+    background-color: #D2A13B;
+}
+
+@media (max-width: 768px) {
+    .ourvision .data p{
+        color: #443516;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,34 @@
+.herosection{
+    height: 100vh;
+    background-image: url(../../Assets/Images/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.herosection .content{
+    margin-top: 7rem;
+}
+.herosection p{
+    font-size: 40px;
+    color: #443516;
+    font-weight: 200;
+    margin-left: 40%;
+}
+.herosection p span{
+    font-size: 40px;
+    color: #443516;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .herosection p{
+        font-size: 20px;
+        color: #443516;
+        font-weight: 200;
+        margin-left: 10%;
+    }
+    .herosection p span{
+        font-size: 28px;
+        color: #443516;
+        font-weight: 700;
+    }
+}

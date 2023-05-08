@@ -1,0 +1,29 @@
+body 
+{
+    font-family: 'segoe ui';
+    /* overflow-x: scroll; */
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+:root{
+--text-mine:#443516;
+--bg-mine : #D2A13B;
+--bg-navbar:#443516;
+--bg-icons: #CED2C8;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-mine);
+}
