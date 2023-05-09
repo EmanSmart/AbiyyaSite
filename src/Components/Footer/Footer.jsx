@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <section class="footer text-center" style={{marginTop:"40px"}}>
+    <section class="footer text-center py-5" style={{marginTop:"40px"}}>
         <div class="head-logo part">
             <img src={footerlogo} alt="" className="w-25"/>
             
@@ -15,22 +15,22 @@ const Footer = () => {
             <div class="links-socialmedia text-center">
                 <ul class="icons">
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/haboob-f1-a4b405264">
+                        <a href="https://www.linkedin.com/in/abiyya-racing-153571265/">
                         <i className="icon fa-brands fa-linkedin mx-2"></i>     
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.instagram.com/haboob_ksa/">
+                        <a href="https://www.instagram.com/abiyya.racing/?igshid=ZDdkNTZiNTM%3D">
                         <i className="icon fa-brands fa-instagram mx-2"></i>     
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1">
+                        <a href="https://www.tiktok.com/@abiyyaracing">
                         <i className="icon fa-brands fa-tiktok mx-2"></i>      
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ">
+                        <a href="https://twitter.com/Abiyya_Racing?t=GN8bvoFJcXIpniU_fFQ_cA&s=09">
                         <i className="icon fa-brands fa-twitter mx-2"></i>    
                         </a>
                     </li>

@@ -152,25 +152,25 @@ const Navbar = () => {
 
               <ul className="mb-2 mb-lg-0  icons d-flex">
                 <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                  href="https://www.linkedin.com/in/abiyya-racing-153571265/"
                   className="me-3"
                 >
                   <i className="icon fa-brands fa-linkedin"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
+                  href="https://www.instagram.com/abiyya.racing/?igshid=ZDdkNTZiNTM%3D"
                   className="me-3"
                 >
                   <i className="icon fa-brands fa-instagram"></i>
                 </a>
                 <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                  href="https://www.tiktok.com/@abiyyaracing"
                   className="me-3"
                 >
                   <i className="icon fa-brands fa-tiktok"></i>
                 </a>
                 <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                  href="https://twitter.com/Abiyya_Racing?t=GN8bvoFJcXIpniU_fFQ_cA&s=09"
                   className="me-3"
                 >
                   <i className="icon fa-brands fa-twitter"></i>
@@ -232,7 +232,7 @@ const Navbar = () => {
         <div className="row">
             <div className="col-md-4">
             </div>
-            <div className="col-md-7 my-2 mx-5" style={{textAlign: "initial"}}>
+            <div className="col-md-7 my-2 mx-5 col-who" style={{textAlign: "initial"}}>
               <div className="data-content">
               <h5 className="mx-5 my-5 who-title">Who is Abiyya</h5>
               <p>Abiyya, the mare of the king Abdulaziz, is one of the most famous Arabian horses since the founding of the kingdom of Saudi Arabia</p>
@@ -240,7 +240,7 @@ const Navbar = () => {
             </div>
             <div className="col-md-4">
             </div>
-            <div className="col-md-7 py-4 mx-5 data-vision" style={{textAlign: "initial"}}>
+            <div className="col-md-7 py-4 mx-5 data-vision col-who" style={{textAlign: "initial", marginTop: "10%"}}>
               <div className="data-content">
               <h5 className="mx-5 my-5 who-title">Our Vision </h5>
               <p> To reach the world finals 2022/2023, discover our passions,broaden our horizons, and have a positive impact on our society</p>
@@ -251,7 +251,7 @@ const Navbar = () => {
       {/* Team=============================== */}
       <section id="team" className="team py-3">
         <div className="title py-5 text-center">
-          <div className="title-font">
+          <div className="title-font" style={{marginTop:"50px"}}>
             <span>
               <img src={titleicon} alt="ss" style={{ width: "50px" }} />
             </span>
@@ -262,204 +262,216 @@ const Navbar = () => {
           <div className="cardbox position-relative">
             <div className="inside py-5 px-3 text-center">
               <img src={t1} alt="" className="img-t w-50 position-absolute" />
-              <h3>Rose Asseri</h3>
-              <label className="my-4">Team Management</label>
-              <ul className="d-flex icons justify-content-center">
-              <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-linkedin"></i>
-                </a>
+              <div className="team-data py-4">
+                <h3 className="py-3">Rose Asseri</h3>
+                <label className="my-4">Team Management</label>
+                <ul className="d-flex icons justify-content-center">
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-twitter"></i>
-                </a>
-              </ul>
+                    href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/haboob_ksa/"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-tiktok"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-twitter"></i>
+                  </a>
+                </ul>
+              </div>
             </div>
           </div>
           {/* 2 */}
           <div className="cardbox position-relative">
           <div className="inside py-5 px-3 text-center">
               <img src={t2} alt="" className="img-t w-50 position-absolute" />
-              <h3>Rose Asseri</h3>
-              <label className="my-4">Team Management</label>
-              <ul className="d-flex icons justify-content-center">
-              <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-linkedin"></i>
-                </a>
+              <div className="team-data py-4">
+                <h3 className="py-3">Rose Asseri</h3>
+                <label className="my-4">Team Management</label>
+                <ul className="d-flex icons justify-content-center">
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-twitter"></i>
-                </a>
-              </ul>
+                    href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/haboob_ksa/"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-tiktok"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-twitter"></i>
+                  </a>
+                </ul>
+              </div>
             </div>
           </div>
           {/* 3 */}
           <div className="cardbox position-relative">
           <div className="inside py-5 px-3 text-center">
               <img src={t3} alt="" className="img-t w-50 position-absolute" />
-              <h3>Rose Asseri</h3>
-              <label className="my-4">Team Management</label>
-              <ul className="d-flex icons justify-content-center">
-              <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-linkedin"></i>
-                </a>
+              <div className="team-data py-4">
+                <h3 className="py-3">Rose Asseri</h3>
+                <label className="my-4">Team Management</label>
+                <ul className="d-flex icons justify-content-center">
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-twitter"></i>
-                </a>
-              </ul>
+                    href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/haboob_ksa/"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-tiktok"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-twitter"></i>
+                  </a>
+                </ul>
+              </div>
             </div>
           </div>
           {/* 4 */}
           <div className="cardbox position-relative">
           <div className="inside py-5 px-3 text-center">
               <img src={t1} alt="" className="img-t w-50 position-absolute" />
-              <h3>Rose Asseri</h3>
-              <label className="my-4">Team Management</label>
-              <ul className="d-flex icons justify-content-center">
-              <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-linkedin"></i>
-                </a>
+              <div className="team-data py-4">
+                <h3 className="py-3">Rose Asseri</h3>
+                <label className="my-4">Team Management</label>
+                <ul className="d-flex icons justify-content-center">
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-twitter"></i>
-                </a>
-              </ul>
+                    href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/haboob_ksa/"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-tiktok"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-twitter"></i>
+                  </a>
+                </ul>
+              </div>
             </div>
           </div>
           {/* 5 */}
           <div className="cardbox position-relative">
           <div className="inside py-5 px-3 text-center">
               <img src={t1} alt="" className="img-t w-50 position-absolute" />
-              <h3>Rose Asseri</h3>
-              <label className="my-4">Team Management</label>
-              <ul className="d-flex icons justify-content-center">
-              <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-linkedin"></i>
-                </a>
+              <div className="team-data py-4">
+                <h3 className="py-3">Rose Asseri</h3>
+                <label className="my-4">Team Management</label>
+                <ul className="d-flex icons justify-content-center">
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-twitter"></i>
-                </a>
-              </ul>
+                    href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/haboob_ksa/"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-tiktok"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-twitter"></i>
+                  </a>
+                </ul>
+              </div>
             </div>
           </div>
           {/* 6 */}
           <div className="cardbox position-relative">
           <div className="inside py-5 px-3 text-center">
               <img src={t1} alt="" className="img-t w-50 position-absolute" />
-              <h3>Rose Asseri</h3>
-              <label className="my-4">Team Management</label>
-              <ul className="d-flex icons justify-content-center">
-              <a
-                  href="https://www.linkedin.com/in/haboob-f1-a4b405264"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-linkedin"></i>
-                </a>
+              <div className="team-data py-4">
+                <h3 className="py-3">Rose Asseri</h3>
+                <label className="my-4">Team Management</label>
+                <ul className="d-flex icons justify-content-center">
                 <a
-                  href="https://www.instagram.com/haboob_ksa/"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-tiktok"></i>
-                </a>
-                <a
-                  href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
-                  className="me-3"
-                >
-                  <i className="icon fa-brands fa-twitter"></i>
-                </a>
-              </ul>
+                    href="https://www.linkedin.com/in/haboob-f1-a4b405264"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/haboob_ksa/"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@haboob.f1sa?_t=8zwuq3chm78&_r=1"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-tiktok"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/haboobf1?s=21&t=0YJ3iPF_r5U85NcnzGeGPQ"
+                    className="me-3"
+                  >
+                    <i className="icon fa-brands fa-twitter"></i>
+                  </a>
+                </ul>
+              </div>
             </div>
           </div>
         </Slider>
@@ -571,9 +583,13 @@ const Navbar = () => {
       {/* faq */}
       {/* ============================fqa==================== */}
         {/* <div className="img-line"></div> */}
-        <section className="faq">
+        <section className="faq py-5">
           <div className="title py-5 text-center">
-            <div className="title-font">FAQ</div>
+            <div className="title-font">
+                  <span>
+                    <img src={titleicon} alt="ss" style={{ width: "50px" }} />
+                  </span>
+              FAQ</div>
             <div className="line-title my-2"></div>
           </div>
           {/* faq-qu */}
@@ -584,8 +600,7 @@ const Navbar = () => {
                   collapseId={1}
                   headerTitle="What is F1 in Schools?"
                 >
-                  You can start with asking your school if there is a chance to
-                  join
+                 F1 in Schools is a worldwide STEM competition where teams of 3-6 students compete to create a miniature F1 car, with also building an identity for a team.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={2}

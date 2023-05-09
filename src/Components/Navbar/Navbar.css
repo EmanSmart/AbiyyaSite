@@ -15,6 +15,7 @@
 .navbarsection .scrollbox {
   display: flex;
   list-style: none;
+  margin-left: 10rem !important;
 }
 .navbarsection .navbar .nav-link {
   font-size: 18px;
@@ -34,7 +35,7 @@
 .navbarsection .icons {
   display: flex !important;
   list-style: none;
-  margin-left: 120px;
+  margin-left: 12rem;
 }
 .navbarsection .icon:hover {
   color: #d2a13b;
@@ -49,6 +50,7 @@
   .navbarsection .scrollbox {
     display: block;
     list-style: none;
+    margin-left: 0 !important;
   }
   .navbarsection .icons {
     display: flex !important;
@@ -87,7 +89,7 @@
     height: 375px;
   }
   .herosection .content {
-    margin-top: -25px;
+    /* margin-top: -25px; */
     padding-top: 60px;
   }
   .herosection img {
@@ -167,6 +169,10 @@
         background-color: #683502;
         background-image: none;
       }
+      .col-who{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
       .who .data-content .who-title,
       .who .data-content p {
         color: #fff;
@@ -187,13 +193,15 @@
 }
 .team .slideritem {
   margin-bottom: 80px;
+
 }
 .team .slick-list {
   margin: 0px 20px;
+  margin-top: 64px;
 }
 .team .img-t {
     margin-left: 18%;
-    margin-top: -40%;
+    margin-top: -25%;
 }
 .team .inside {
   border: none;
@@ -201,8 +209,8 @@
   background-color: #F4EADA;
   text-align: center;
   width: 95%;
-  margin-top: 190px;
-    height: 25rem;
+  margin-top: 154px;
+  height: 29rem;
 }
 .team .inside h3 {
   color: #52331A;
@@ -229,12 +237,14 @@
   color: #b5b7ac;
   font-size: 16px;
 }
-.team .slick-prev:before, .slick-next:before{
+.team .slick-prev:before, 
+.team .slick-next:before{
     color: #8e5204 !important;
 }
 @media (max-width: 768px) {
   .team .title .title-font {
     font-size: 30px;
+    margin-left: 36%;
     color: #443516;
     font-weight: 700;
   }
@@ -256,10 +266,10 @@
 }
 /* sponsers */
 .sponsers {
-  background-image: url(../../Assets/Images/Aby-spon.svg);
+  /* background-image: url(../../Assets/Images/Aby-spon.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: scroll; */
   height: 100vh;
 }
 .sponsers .sliders {
@@ -346,13 +356,14 @@
 }
 .accordion-item .accordion-button {
   background-color: #f7f4e9;
-  color: #2d2e2e;
+  color: #52331A;
   font-size: 24px;
   font-weight: 700;
 }
 .accordion-body {
   background-color: #f7f4e9;
   border: 0;
+  color: #683502;
   text-align: initial;
   margin-bottom: 30px;
 }
